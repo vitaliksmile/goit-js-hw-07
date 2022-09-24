@@ -35,7 +35,7 @@ function onClick(event) {
 
   instance.show();
   galleryBox.addEventListener("keydown", (event) => {
-    if (event.code === "Escape") {
+    if (event.code === "Escape" || event.code === "Enter") {
       instance.close();
     }
   });
